@@ -5,7 +5,7 @@ Full-stack recipe search application using React and Flask with Spoonacular API 
 ## Setup
 
 ### API
-Go to [text](https://spoonacular.com/food-api/console#Dashboard) and create an account. Get the api key and place it into a
+Go to [spoonacular.com](https://spoonacular.com/food-api/console#Dashboard) and create an account. Get the api key and place it into a
 .env file with the following structure: 
 
 SPOONACULAR_API_KEY=your-api-key
@@ -48,4 +48,4 @@ Running the above code for backend and frontend in your terminal should run the 
 ### Project Reflection
 I did my project alone and it took me about 6 hours. Some issues I had was with the routes and Flask backend, particularly port issues and CORS policy. Creating tests was also very diffiuclt because of library issues and deprecations in javascript.
 
-Google Drive Link: [text](https://drive.google.com/file/d/1Y0CCqrlM88_bmGcjUVo-07DuEYV9FyRl/view?usp=sharing)# azimr24-hw1
+Google Drive Link [here.](https://drive.google.com/file/d/1Y0CCqrlM88_bmGcjUVo-07DuEYV9FyRl/view?usp=sharing)
