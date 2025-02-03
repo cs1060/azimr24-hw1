@@ -1,0 +1,30 @@
+.searchForm {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.input {
+  flex: 2;
+  padding: 0.8rem;
+}
+
+.select {
+  flex: 1;
+  padding: 0.8rem;
+  border-radius: 4px;
+}
+
+.numberInput {
+  width: 80px;
+  padding: 0.8rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  flex: 0.5;
+  padding: 0.8rem 1.5rem;
+}
+

@@ -1,0 +1,7 @@
+# requirements.txt
+Flask
+requests
+flask-cors
+python-dotenv==1.0.0
+pytest 
+requests_mock

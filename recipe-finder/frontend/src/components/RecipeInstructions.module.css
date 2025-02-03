@@ -1,0 +1,63 @@
+.instructions {
+  margin-top: 2rem;
+}
+
+.steps {
+  list-style: none;
+  padding: 0;
+  counter-reset: step-counter;
+}
+
+.step {
+  counter-increment: step-counter;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.stepNumber {
+  display: block;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.stepNumber::before {
+  content: counter(step-counter) ". ";
+  color: #3498db;
+}
+
+.meta {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+.meta strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.meta ul {
+  list-style: none;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.meta li {
+  padding: 0.25rem 0;
+  color: #7f8c8d;
+}
+
+.error {
+  color: #e74c3c;
+  padding: 1rem;
+  background: #f8d7da;
+  border-radius: 4px;
+}
